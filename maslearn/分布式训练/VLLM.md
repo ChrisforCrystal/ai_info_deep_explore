@@ -226,3 +226,16 @@ LLM推理知识指南---kaiyuan
 CalvinXKY/InfraTech: 分享AI Infra知识&代码练习：PyTorch/vLLM/SGLang框架入门⚡️、性能加速🚀、大模型基础🧠、AI软硬件🔧等
 github.com/CalvinXKY/InfraTech
 欢迎点赞、关注、留言讨论。 @kaiyuan
+
+Scheduler
+1、Continuous Batching
+持续批处理->流水线的方式
+2、Chunked Prefill 分块预填充
+10万请求切分小块
+
+KV Manager
+PagedAttention 分页自注意力机制
+16块 Block
+虚拟映射表映射物理内存
+
+Model Runner
